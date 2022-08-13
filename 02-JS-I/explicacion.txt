@@ -1,0 +1,23 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+Variables= las variables como lo dice su nombre, puede variar de acuerdo a la circunstancia, puede variar tanto su nombre o "etiqueta", como su contenido,
+todo lo que esta "ADENTRO" de nuestra variable.
+
+Strings= un String es una variable, que puede guardar, almacenar dentro de ella cualquier tipo de caracter, o cadena de caracter, ejemplo "hola mundo".
+
+Funciones= Una funcion es un bloque de codigo, algo que escribimos con la etiqueta de funcion, que podemos usar varias veces a lo largo de nuestro codigo;
+dentro de las funciones podemos "pasarle" argumentos, que son los que nuestra "Funcion" va a utilizar luego para lograr el fin por el cual fue creada la funcion;
+también dentro de una funcion podemos usar "return", como lo dice la palabra, retorna algo, un resultado de una operacion matematica, una texto modificado, las posibilidades son muy amplias.
+
+Declaraciones IF= cuando hablamos de IF, esta palabra reservada lo que hace es condicionar, es decir, que si se cumple o no tal condicion, suceda algo o no;
+ejemplo if (num > 0 ), ((si numero es mayor a 0)) num + num. ((Suma numero más numero)
+
+Valores booleanos= Para poder entender que es un valor booleano, hay que saber que pasa dentro del "procesador", "mente" que esta leyendo nuestro codigo, ellos no entienden
+nuestro lenguaje, como toda maquina su lenguaje esta basado en ceros y unos.. 000110 0  00  111 .... se puede entender como si o no, positivo y negativo. falso(false) , 
+o verdadero(true).
