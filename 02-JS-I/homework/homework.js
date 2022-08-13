@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return X - y;
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -123,7 +123,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return  math.pow(num,2);
+   return  Math.pow(num, 2);
 }
 
 function elevarAlCubo(num) {
@@ -135,7 +135,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return  math.pow(num,exponent);
+  return  Math.pow(num, exponent);
 }
 
 function redondearNumero(num) {
@@ -147,13 +147,13 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return  math.ceil(num);
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return  math.random(0,1);
+  return Math.random();
 }
 
 function esPositivo(numero) {
@@ -161,9 +161,9 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (num === 0)
+  if (numero === 0)
   return false;
-  if (num > 0)
+  if (numero > 0)
   return 'Es positivo';
   else
   return 'Es negativo';
@@ -188,7 +188,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return ('hola ' + nombre + '!' );
+  return ('Hola ' + nombre + '!' );
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
