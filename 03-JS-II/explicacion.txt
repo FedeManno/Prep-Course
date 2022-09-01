@@ -1,0 +1,21 @@
+
+* `for`: Es un bucle( algo que se repite, hasta que se cumple una condicion) que pasandole los datos correctos ordenados, 
+	nos va a permitir hacer ciertas tareas repetitivas de una forma mucho más sensilla y rapida.
+	ejemplo= si quisieramos mostrar por pantalla 100 numeros por pantalla, podriamos escribirlos manualmente 0,1,2,3,... . 
+	Para hacerlo menos tedioso y no escribir esas 100 lineas de codigo podemos usar el for. 
+	diciendo for ( i=o ; i<101 ; i++)
+           (va a mostrar desde la posicion o, mientras que i sea menor que 101, incrementando el valor de i en 1)
+
+
+* `&&`: Tiene como significado "Y". Quiere decir que si lo evaluamos en una sentencia, ambas partes tienen que ser "true" para que el resultado sea "true". si una de las expresiones
+	es true y la otra es false, como resultado obtendremos "false"
+	Ejemplo =  ( A = 0 && b= 2 )
+ 															("a" es igual a 0 "Y" "b" es igual a 2)
+`||` : Muy similiar al &&, con un pequeño cambio en su comportamiento. Lo que el operador observa es que si ambas expresiones son true, o tan solo una de ellas, el resultado a obtener
+sera true. por consencuente si tenemos una expresion true, y una false, el resultado sera "false". Si ambas expresiones son false, el resultado sera "false"-
+
+
+* '!' :	al concatenar delante del valor el operador "!" este se va a convertir en "false". 
+	Ejemplo= Console.log(! 2 === 2 )
+		(2 es igual a 2, por ende la expresion es "true", pero tenemos un "!" antes, entonces como resultado vamos a obtener un "false". 
+													    	      

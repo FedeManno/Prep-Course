@@ -186,7 +186,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   let arrayTablaDel6 = []
-  for (var i=0 ; i = 10 ; i++)
+  for (var i=0 ; i < 11 ; i++)
     arrayTablaDel6.push(6*i)
 
   return arrayTablaDel6;
@@ -209,11 +209,11 @@ function doWhile(numero) {
   var a = numero;
   do{
   i = i + 1
-  a = a + 5}   
+  a = a + 5}  
   while (i < 8)
   return a; 
-}
 
+}
 
 // No modificar nada debajo de esta línea
 // --------------------------------
@@ -233,5 +233,5 @@ module.exports = {
   esVerdadero,
   tablaDelSeis,
   tieneTresDigitos,
-  doWhile
+  doWhile,
 };
